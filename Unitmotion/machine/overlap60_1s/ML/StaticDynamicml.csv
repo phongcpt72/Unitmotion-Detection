@@ -1,0 +1,12 @@
+Name,Type,ML,Accuracy,Recall,Precision,F1,MLTime,Otime,Estimate Time
+Static Dynamic,601,DT,0.84,0.83,0.84,0.83,0.17,0.4,0.57
+Static Dynamic,601,KNN3,0.92,0.92,0.93,0.92,0.04,0.4,0.44
+Static Dynamic,601,KNN5,0.92,0.91,0.92,0.91,0.03,0.4,0.43
+Static Dynamic,601,ETC100,0.97,0.97,0.97,0.97,1.81,0.4,2.21
+Static Dynamic,601,ETC50,0.97,0.97,0.97,0.97,0.81,0.4,1.21
+Static Dynamic,601,ETC25,0.97,0.97,0.97,0.97,0.46,0.4,0.86
+Static Dynamic,601,ETC10,0.97,0.96,0.97,0.97,0.17,0.4,0.57
+Static Dynamic,601,RFC100,0.97,0.97,0.97,0.97,7.67,0.4,8.07
+Static Dynamic,601,RFC50,0.97,0.97,0.97,0.97,3.82,0.4,4.22
+Static Dynamic,601,RFC25,0.97,0.96,0.97,0.97,1.92,0.4,2.32
+Static Dynamic,601,RFC10,0.96,0.96,0.96,0.96,0.77,0.4,1.17

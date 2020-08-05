@@ -1,0 +1,12 @@
+Name,Type,ML,Accuracy,Recall,Precision,F1,MLTime,Otime,Estimate Time
+Holding Styles,802,DT,1.0,1.0,1.0,1.0,0.04,0.4,0.44
+Holding Styles,802,KNN3,1.0,1.0,1.0,1.0,0.05,0.4,0.45
+Holding Styles,802,KNN5,1.0,1.0,1.0,1.0,0.03,0.4,0.43
+Holding Styles,802,ETC100,1.0,1.0,1.0,1.0,0.4,0.4,0.8
+Holding Styles,802,ETC50,1.0,1.0,1.0,1.0,0.13,0.4,0.53
+Holding Styles,802,ETC25,1.0,1.0,1.0,1.0,0.07,0.4,0.47
+Holding Styles,802,ETC10,1.0,1.0,1.0,1.0,0.04,0.4,0.44
+Holding Styles,802,RFC100,1.0,1.0,1.0,1.0,0.5,0.4,0.9
+Holding Styles,802,RFC50,1.0,1.0,1.0,1.0,0.28,0.4,0.68
+Holding Styles,802,RFC25,1.0,1.0,1.0,1.0,0.15,0.4,0.55
+Holding Styles,802,RFC10,1.0,1.0,1.0,1.0,0.07,0.4,0.47

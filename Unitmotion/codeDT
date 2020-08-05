@@ -1,0 +1,65 @@
+class DecisionTreeClassifier {
+
+    private static int findMax(int[] nums) {
+        int index = 0;
+        for (int i = 0; i < nums.length; i++) {
+            index = nums[i] > nums[index] ? i : index;
+        }
+        return index;
+    }
+
+    public static int predict(double[] features) {
+        int[] classes = new int[4];
+            
+        if (features[1] <= -0.7626305818557739) {
+            if (features[0] <= 4.249780654907227) {
+                if (features[1] <= -8.23518681526184) {
+                    classes[0] = 0; 
+                    classes[1] = 3713; 
+                    classes[2] = 0; 
+                    classes[3] = 0; 
+                } else {
+                    classes[0] = 0; 
+                    classes[1] = 0; 
+                    classes[2] = 9; 
+                    classes[3] = 0; 
+                }
+            } else {
+                classes[0] = 0; 
+                classes[1] = 0; 
+                classes[2] = 3971; 
+                classes[3] = 0; 
+            }
+        } else {
+            if (features[0] <= -1.2645117044448853) {
+                classes[0] = 3809; 
+                classes[1] = 0; 
+                classes[2] = 0; 
+                classes[3] = 0; 
+            } else {
+                classes[0] = 0; 
+                classes[1] = 0; 
+                classes[2] = 0; 
+                classes[3] = 3632; 
+            }
+        }
+    
+        return findMax(classes);
+    }
+
+    public static void main(String[] args) {
+        if (args.length == 3) {
+
+            // Features:
+            double[] features = new double[args.length];
+            for (int i = 0, l = args.length; i < l; i++) {
+                features[i] = Double.parseDouble(args[i]);
+            }
+
+            // Prediction:
+            int prediction = DecisionTreeClassifier.predict(features);
+            System.out.println(prediction);
+
+        }
+    }
+}
